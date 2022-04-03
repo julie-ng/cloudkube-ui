@@ -1,0 +1,99 @@
+body {
+	font-weight: 400;
+	font-size: 16px; // 0.96rem;
+	line-height: 1.4em;
+	font-family: var(--body-font);
+	color: var(--body-text-color);
+}
+
+.app-body {
+	line-height: 1.6em;
+}
+
+a {
+	&:link {
+		color: var(--purple-color);
+	}
+
+	&:visited {
+		color: #182a76; // var(--dark-purple-color);
+		// color: #c1c4f7; //var(--space-cadet-color);
+	}
+
+	&:hover, &:active {
+		color: var(--teal-color); //var(--outrageous-orange-color);
+	}
+}
+
+h1, h2, h3 {
+	margin: 1em 0;
+	font-family: var(--heading-font);
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.7rem;
+	color: var(--purple-color);
+}
+
+table + h2,
+table + h3,
+table + h4 {
+	margin-top: 2em;
+}
+
+pre {
+	background: #f1f1f1;
+	padding: 1em;
+}
+
+.page-title {
+	font-size: 2em;
+	color: var(--cherry-color);
+}
+
+.category-title {
+	text-transform: capitalize;
+	font-size: 1.8rem;
+}
+
+.question-title {
+	// font-size: 1.3rem;
+
+	a:link, a:visited {
+		text-decoration: none;
+	}
+
+	a:hover, a:active {
+		text-decoration: underline;
+	}
+}
+
+.lead {
+	font-weight: 300;
+	font-size: 1.6em;
+	max-width: 700px;
+	line-height: 1.4em;
+}
+
+h1 {
+	font-size: var(--lg-font-size);
+}
+
+blockquote {
+	background: #fafafa;
+	padding: 1em 2em;
+	border-left: 10px solid #eee;
+	margin: 1em 0;
+}
+
+.capitalize-case {
+	text-transform: capitalize;
+}
+
+.grey-text {
+	color: #bbb;
+}

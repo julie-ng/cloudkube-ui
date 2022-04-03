@@ -1,0 +1,19 @@
+{
+  "name": "cloudkube-ui",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack --config webpack.dev.js"
+  },
+  "author": "Julie Ng <me@julie.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "mini-css-extract-plugin": "^2.6.0",
+    "sass": "^1.49.11",
+    "sass-loader": "^12.6.0",
+    "webpack": "^5.71.0",
+    "webpack-cli": "^4.9.2"
+  }
+}

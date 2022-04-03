@@ -1,0 +1,43 @@
+.app-scoreboard {
+	padding: 0.5rem var(--gutter-width);
+
+	h3 {
+		font-size: 1.1rem; // TODO
+	}
+}
+
+.score {
+	position: sticky;
+	top: 110px;
+	font-size: var(--sm-font-size);
+}
+
+.score-pillar {
+	p {
+		margin-top: 0;
+		margin-bottom: 0.25em;
+		text-transform: capitalize;
+	}
+
+	span {
+		font-weight: 400;
+		color: #bbb;
+	}
+}
+
+span.score-delta {
+	color: #aaa;
+}
+
+.meter-container {
+	width: 200px;
+	height: 18px;
+	margin-bottom: 1em;
+	overflow: hidden;
+	background: #f6f7fd;
+	border: 1px solid #aeb6d7;
+
+	.meter-bar {
+		background-color: #8fa4ff;
+	}
+}

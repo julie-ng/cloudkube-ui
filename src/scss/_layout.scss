@@ -1,0 +1,57 @@
+body {
+	background: var(--body-bg-color);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body,
+.content {
+	margin: 0;
+	padding: 0;
+}
+
+img,
+table {
+	max-width: 100%;
+}
+
+.container-wrapper {
+	margin: 1em auto;
+	padding-left: var(--gutter-width);
+	padding-right: var(--gutter-width);
+	max-width: var(--page-max-width);
+}
+
+.app-grid {
+	display: grid;
+	grid-template-columns: var(--nav-width) 1fr var(--sidebar-width);
+}
+
+.app-sidebar {
+	padding-left: 1em;
+}
+
+.app-body {
+	padding-left: 30px;
+	padding-right: 30px; // TODO: calculate proper grid
+	overflow: scroll;
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid var(--grey-border-color);
+}
+
+figure {
+	display: block;
+	margin: 1em auto;
+	text-align: center;
+}
+
+figcaption {
+	color: #999;
+	font-size: var(--sm-font-size);
+	font-style: italic;
+}
