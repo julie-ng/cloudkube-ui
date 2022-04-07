@@ -1,5 +1,5 @@
 {
-  "name": "cloudkube-ui",
+  "name": "@cloudkube/ui",
   "version": "0.0.0",
   "description": "",
   "scripts": {

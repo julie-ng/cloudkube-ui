@@ -25,6 +25,14 @@
 	}
 }
 
+.score-disclaimer {
+	color: --md-grey-font-color;
+
+	a:link, a:visited {
+		color: --md-grey-font-color;
+	}
+}
+
 span.score-delta {
 	color: #aaa;
 }
