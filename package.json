@@ -2,6 +2,7 @@
   "name": "@cloudkube/ui",
   "version": "0.0.0",
   "description": "",
+  "main": "dist/bundle.css",
   "scripts": {
     "build": "webpack",
     "dev": "webpack --config webpack.dev.js"
