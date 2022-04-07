@@ -1,6 +1,8 @@
 # cloudkube-ui
 
-Common CSS styles for various demos I build. 
+Shared CSS styles for various demos I build. 
+
+And example of how to share stylesheets across multiple projects for a unified look - while keeping CSS in its own repo here.
 
 ## Local Development
 
